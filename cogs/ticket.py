@@ -68,8 +68,9 @@ class Ticket(commands.Cog):
                     view = View(timeout=None)
                     view.add_item(ticket_close)
 
-                    await channel.send(f'<@&{staff_id_role}>', embeds=[emd1, emd2], view=view)
-
+                    ms1 = await channel.send(f'<@&{staff_id_role}>', embeds=[emd1, emd2], view=view)
+                    await ms1.pin()
+                    
                 ticket_create.callback = create_ticket
                 view = View(timeout=None)
                 view.add_item(ticket_create)
