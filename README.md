@@ -1,5 +1,5 @@
 # Ticket-bot-lite
-Просто тикет бот на nextcord
+Простой тикет бот на nextcord
 
 <img src='assest/Discord_UxhKzom6hr.png'>
 <img src='assest/Discord_AKxRENn52K.png'>
